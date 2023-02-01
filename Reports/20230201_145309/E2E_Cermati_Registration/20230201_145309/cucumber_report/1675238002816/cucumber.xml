@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="13.725592">
+<testcase classname="Register Feature" name="As A User, I want to Register and have Cermati account" time="13.725592">
+<system-out><![CDATA[Given I already open my browser.............................................passed
+And navigate to cermati registration page...................................passed
+When I input my email.......................................................passed
+And I input my phone number.................................................passed
+And I input my password.....................................................passed
+And I confirm my password...................................................passed
+And I input my first name...................................................passed
+And I input my last name....................................................passed
+And I choose my city province...............................................passed
+And I check terms & conditions policy agreement.............................passed
+And I click register button.................................................passed
+Then I should directed to OTP option page...................................passed
+And I see two options to sent OTP, SMS or WhatsApp..........................passed
+]]></system-out>
+</testcase>
+</testsuite>

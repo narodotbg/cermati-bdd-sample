@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>cityProvince_option</name>
+   <tag></tag>
+   <elementGuidId>ba2177a8-c6b5-4749-9e07-2437a6613bda</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.autocomplete__list-item_fTFLC.autocomplete__list-item--highlighted_AoxkV > div.autocomplete__list-item-label_-S4yV</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='safe-area']/div[2]/div[2]/div/div[6]/div[2]/div/button[5]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>autocomplete__list-item-label_-S4yV</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>KOTA JAKARTA PUSAT</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;safe-area&quot;)/div[2]/div[@class=&quot;superapp-container content&quot;]/div[@class=&quot;container_Eq-qi&quot;]/div[@class=&quot;RegistrationForm_form-container__input-group__OgDct&quot;]/div[@class=&quot;autocomplete__list-container_oVU2R&quot;]/div[@class=&quot;autocomplete__list-menu_sE98J&quot;]/button[@class=&quot;autocomplete__list-item_fTFLC autocomplete__list-item--highlighted_AoxkV&quot;]/div[@class=&quot;autocomplete__list-item-label_-S4yV&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='safe-area']/div[2]/div[2]/div/div[6]/div[2]/div/button[5]/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='KOTA JAKARTA BARAT'])[1]/following::div[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='KABUPATEN KEPULAUAN SERIBU'])[1]/following::div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='KOTA JAKARTA TIMUR'])[1]/preceding::div[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='KOTA JAKARTA PUSAT']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[5]/div</value>
+   </webElementXpaths>
+</WebElementEntity>

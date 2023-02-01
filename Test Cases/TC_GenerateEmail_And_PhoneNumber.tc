@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_GenerateEmail_And_PhoneNumber</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e0937396-6e3e-46af-9d39-dca69da42dee</testCaseGuid>
+</TestCaseEntity>

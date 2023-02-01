@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>cermati register page</description>
+      <initValue>'https://www.cermati.com/app/gabung'</initValue>
+      <name>url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>generated email</description>
+      <initValue>''</initValue>
+      <name>mail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>generated phone number</description>
+      <initValue>''</initValue>
+      <name>phoneNumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>encrypted password</description>
+      <initValue>'p4y+y39Ir5Pc2g9xt3QkeQ=='</initValue>
+      <name>password</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

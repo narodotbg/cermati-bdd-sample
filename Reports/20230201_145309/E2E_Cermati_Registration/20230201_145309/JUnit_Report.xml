@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="E2E_Cermati_Registration" time="17.119" tests="2" failures="0" errors="0">
+   <testsuite name="E2E_Cermati_Registration" tests="2" failures="0" errors="0" time="17.119" skipped="0" timestamp="2023-02-01 14:53:21" hostname="Asus - LAPTOP-U292CHFI" id="Test Suites/E2E_Cermati_Registration">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Work\\KatalonProject\\cermati_test\\Reports\\20230201_145309\\E2E_Cermati_Registration\\20230201_145309"/>
+         <property name="logFiles" value="D:\\Work\\KatalonProject\\cermati_test\\Reports\\20230201_145309\\E2E_Cermati_Registration\\20230201_145309\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Asus - LAPTOP-U292CHFI"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+         <property name="browser" value="Chrome 109.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.102"/>
+         <property name="sessionId" value="090cba92d1389c93c2abbcbad9458d39"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_GenerateEmail_And_PhoneNumber" time="0.561" classname="Test Cases/TC_GenerateEmail_And_PhoneNumber" status="PASSED">
+         <system-out><![CDATA[2023-02-01 14:53:21 - [TEST_CASE][PASSED] - Test Cases/TC_GenerateEmail_And_PhoneNumber: Test Cases/TC_GenerateEmail_And_PhoneNumber
+
+2023-02-01 14:53:22 - [TEST_STEP][PASSED] - mail = cermati.test.Generator.generateEmail("narodo_", "@mail.com"): cermati.test.Generator.generateEmail is PASSED
+
+2023-02-01 14:53:22 - [MESSAGE][PASSED] - cermati.test.Generator.generateEmail is PASSED
+
+2023-02-01 14:53:22 - [TEST_STEP][PASSED] - phoneNumber = cermati.test.Generator.generatePhoneNumber("0822"): cermati.test.Generator.generatePhoneNumber is PASSED
+
+2023-02-01 14:53:22 - [MESSAGE][PASSED] - cermati.test.Generator.generatePhoneNumber is PASSED
+
+2023-02-01 14:53:22 - [TEST_STEP][PASSED] - println(mail): null
+
+2023-02-01 14:53:22 - [TEST_STEP][PASSED] - println(phoneNumber): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Run_RegisterFeature" time="14.604" classname="Test Cases/TC_Run_RegisterFeature" status="PASSED">
+         <system-out><![CDATA[2023-02-01 14:53:22 - [TEST_CASE][PASSED] - Test Cases/TC_Run_RegisterFeature: Test Cases/TC_Run_RegisterFeature
+
+2023-02-01 14:53:22 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Registration.feature"): Feature file: 'Include/features/Registration.feature' was passed
+
+2023-02-01 14:53:22 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Registration.feature' and extract report to folder: 'D:\Work\KatalonProject\cermati_test\Reports\20230201_145309\E2E_Cermati_Registration\20230201_145309/cucumber_report/1675238002816'...
+
+2023-02-01 14:53:23 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO As A User, I want to Register and have Cermati account: SCENARIO As A User, I want to Register and have Cermati account
+
+2023-02-01 14:53:23 - [TEST_STEP][PASSED] - I already open my browser: I already open my browser
+
+2023-02-01 14:53:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-01 14:53:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-01 14:53:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-02-01 14:53:27 - [MESSAGE][PASSED] - Current window maximized
+
+2023-02-01 14:53:27 - [MESSAGE][PASSED] - I already open my browser
+
+2023-02-01 14:53:27 - [TEST_STEP][PASSED] - navigate to cermati registration page: navigate to cermati registration page
+
+2023-02-01 14:53:29 - [MESSAGE][PASSED] - Navigate to 'https://www.cermati.com/app/gabung' successfully
+
+2023-02-01 14:53:29 - [MESSAGE][PASSED] - navigate to cermati registration page
+
+2023-02-01 14:53:29 - [TEST_STEP][PASSED] - I input my email: I input my email
+
+2023-02-01 14:53:31 - [MESSAGE][PASSED] - Text 'narodo_loIxtwrFSP@mail.com' is set on object 'Object Repository/register_page/email_field'
+
+2023-02-01 14:53:31 - [MESSAGE][PASSED] - I input my email
+
+2023-02-01 14:53:31 - [TEST_STEP][PASSED] - I input my phone number: I input my phone number
+
+2023-02-01 14:53:31 - [MESSAGE][PASSED] - Text '082234968077' is set on object 'Object Repository/register_page/phoneNumber_field'
+
+2023-02-01 14:53:31 - [MESSAGE][PASSED] - I input my phone number
+
+2023-02-01 14:53:31 - [TEST_STEP][PASSED] - I input my password: I input my password
+
+2023-02-01 14:53:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/register_page/password_field'
+
+2023-02-01 14:53:32 - [MESSAGE][PASSED] - I input my password
+
+2023-02-01 14:53:32 - [TEST_STEP][PASSED] - I confirm my password: I confirm my password
+
+2023-02-01 14:53:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/register_page/confirmPassword_field'
+
+2023-02-01 14:53:33 - [MESSAGE][PASSED] - I confirm my password
+
+2023-02-01 14:53:33 - [TEST_STEP][PASSED] - I input my first name: I input my first name
+
+2023-02-01 14:53:33 - [MESSAGE][PASSED] - Text 'Narodo' is set on object 'Object Repository/register_page/firstName_field'
+
+2023-02-01 14:53:33 - [MESSAGE][PASSED] - I input my first name
+
+2023-02-01 14:53:33 - [TEST_STEP][PASSED] - I input my last name: I input my last name
+
+2023-02-01 14:53:34 - [MESSAGE][PASSED] - Text 'Mario' is set on object 'Object Repository/register_page/lastName_field'
+
+2023-02-01 14:53:34 - [MESSAGE][PASSED] - I input my last name
+
+2023-02-01 14:53:34 - [TEST_STEP][PASSED] - I choose my city province: I choose my city province
+
+2023-02-01 14:53:35 - [MESSAGE][PASSED] - Text 'JAKARTA' is set on object 'Object Repository/register_page/cityProvince_field'
+
+2023-02-01 14:53:36 - [MESSAGE][PASSED] - Object: 'Object Repository/register_page/cityProvince_option' is clicked on
+
+2023-02-01 14:53:36 - [MESSAGE][PASSED] - I choose my city province
+
+2023-02-01 14:53:36 - [TEST_STEP][PASSED] - I check terms & conditions policy agreement: I check terms & conditions policy agreement
+
+2023-02-01 14:53:36 - [MESSAGE][PASSED] - I check terms & conditions policy agreement
+
+2023-02-01 14:53:36 - [TEST_STEP][PASSED] - I click register button: I click register button
+
+2023-02-01 14:53:36 - [MESSAGE][PASSED] - Object: 'Object Repository/register_page/register_button' is clicked on
+
+2023-02-01 14:53:36 - [MESSAGE][PASSED] - I click register button
+
+2023-02-01 14:53:36 - [TEST_STEP][PASSED] - I should directed to OTP option page: I should directed to OTP option page
+
+2023-02-01 14:53:36 - [MESSAGE][PASSED] - I should directed to OTP option page
+
+2023-02-01 14:53:36 - [TEST_STEP][PASSED] - I see two options to sent OTP, SMS or WhatsApp: I see two options to sent OTP, SMS or WhatsApp
+
+2023-02-01 14:53:36 - [MESSAGE][PASSED] - I see two options to sent OTP, SMS or WhatsApp
+
+2023-02-01 14:53:37 - [MESSAGE][PASSED] - Feature file: 'Include/features/Registration.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-02-01 14:53:21 - [TEST_SUITE][PASSED] - E2E_Cermati_Registration: Test Cases/TC_Run_RegisterFeature]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
